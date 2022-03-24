@@ -17,7 +17,7 @@ locals {
 
 # Specify the path to the source of the module
 terraform {
-  source = "../../../../../modules//azurerm_app_service_plan"
+  source = "../../../../../modules/azurerm_app_service_plan"
 }
 
 # Include all settings from the root terragrunt.hcl file

@@ -16,7 +16,7 @@ locals {
 
 # Specify the path to the source of the module
 terraform {
-  source = "../../../../modules//azurerm_storage_account_static_website"
+  source = "../../../../modules/azurerm_storage_account_static_website"
 }
 
 # Include all settings from the root terragrunt.hcl file

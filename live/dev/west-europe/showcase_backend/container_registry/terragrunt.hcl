@@ -16,7 +16,7 @@ locals {
 
 # Specify the path to the source of the module
 terraform {
-  source = "../../../../../modules//azurerm_container_registry"
+  source = "../../../../../modules/azurerm_container_registry"
 }
 
 # Include all settings from the root terragrunt.hcl file
